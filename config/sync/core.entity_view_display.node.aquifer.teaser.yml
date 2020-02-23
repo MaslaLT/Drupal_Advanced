@@ -1,0 +1,20 @@
+uuid: 16fe85e7-9a28-486f-b63e-1f5d1f47a92b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.aquifer
+  module:
+    - user
+id: node.aquifer.teaser
+targetEntityType: node
+bundle: aquifer
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

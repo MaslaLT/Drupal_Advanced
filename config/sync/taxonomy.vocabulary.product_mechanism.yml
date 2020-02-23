@@ -1,0 +1,8 @@
+uuid: 74e8281b-7a63-4561-a55c-fc6d897953c2
+langcode: en
+status: true
+dependencies: {  }
+name: Mechanism
+vid: product_mechanism
+description: ''
+weight: 0

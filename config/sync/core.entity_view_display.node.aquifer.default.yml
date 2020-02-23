@@ -1,0 +1,19 @@
+uuid: 560a6952-bd15-49c1-ba9d-585c5a9a8278
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aquifer
+  module:
+    - user
+id: node.aquifer.default
+targetEntityType: node
+bundle: aquifer
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

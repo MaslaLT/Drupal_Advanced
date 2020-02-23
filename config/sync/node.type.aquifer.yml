@@ -1,0 +1,17 @@
+uuid: 9215ccc2-825d-4417-becb-a86847740e86
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Aquifer
+type: aquifer
+description: 'Information about aquifers around the world. This is third party information.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false
