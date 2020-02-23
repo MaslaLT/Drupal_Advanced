@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.aquifer.field_aquifer_coordinates
+    - field.field.node.aquifer.field_aquifer_status
+    - field.field.node.aquifer.field_aquifer_volume
     - node.type.aquifer
   module:
     - user
@@ -17,4 +20,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_aquifer_coordinates: true
+  field_aquifer_status: true
+  field_aquifer_volume: true

@@ -3,6 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.aquifer.field_aquifer_coordinates
+    - field.field.node.aquifer.field_aquifer_status
+    - field.field.node.aquifer.field_aquifer_volume
     - node.type.aquifer
   module:
     - path
@@ -17,6 +20,28 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_aquifer_coordinates:
+    weight: 121
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_aquifer_status:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_aquifer_volume:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   path:
     type: path
     weight: 30
